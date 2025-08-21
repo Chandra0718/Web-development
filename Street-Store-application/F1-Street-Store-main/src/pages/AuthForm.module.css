@@ -1,0 +1,76 @@
+/* src/pages/AuthForm.module.css */
+.container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fef8f5, #f0e4dc);
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 320px;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 12px;
+  box-shadow: 10px 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.input {
+  padding:12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+.input:focus {
+  border-color: #e91e63;
+  outline: none;
+}
+
+.button {
+  padding: 12px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #d81b60;
+}
+
+.text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.link {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
